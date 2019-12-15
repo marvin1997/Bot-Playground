@@ -23,22 +23,5 @@ public class CommentedOutCode {
 		
 		return result;
 	}
-
-		protected int calculateSomethingNew() {
-				int result = 0;
-
-				//		int i = 0;
-				//		while (i < 10) {
-				//			result = result + i;
-				//			i++;
-				//		}
-
-				// an important comment
-				for (int i = 0; i < 10; i++) {
-						result = result + new Random().nextInt(2);
-				}
-
-				return result;
-		}
 	
 }
