@@ -1,0 +1,8 @@
+Mit git Config 9 arbeiten
+
+Komandozeilenbefehl um in NewPlayground den Code auf Code-Smells zu analysieren:
+
+mvn sonar:sonar
+	-Dsonar.projectKey=NewPlayground   
+	-Dsonar.host.url=http://localhost:9000   
+	-Dsonar.login=130bf945e2d91f17e14bbaca6bd004331ad2a234
