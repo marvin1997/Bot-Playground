@@ -13,4 +13,11 @@ public class MissingOverrideAnnotation extends MissingOverrideAnnotationSuperCla
 		return a + b;
 	}
 
+		/**
+		 * This method is missing an @Override annotation.
+		 */
+		public double addition2(double a, double b) {
+				return a + b;
+		}
+
 }

@@ -16,5 +16,12 @@ public class UnusedPrivateField {
 	public UnusedPrivateField() {
 		this.foo = 42;
 	}
+
+		/**
+		 * However, the value could be set as in this constructor.
+		 */
+		public void methodUnusedPrivateField2() {
+				this.foo = 42;
+		}
 	
 }

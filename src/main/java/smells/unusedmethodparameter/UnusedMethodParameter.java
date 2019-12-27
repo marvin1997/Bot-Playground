@@ -16,6 +16,17 @@ public class UnusedMethodParameter {
 		return result;
 	}
 
+		/**
+		 * @param a
+		 * @param c
+		 * @return
+		 */
+		protected int calculateSomething2(int a, int b, int c) {
+				int result = (a + c) * 0;
+				result = result + 1;
+				return result;
+		}
+
 	/**
 	 * This method contains a method call to the method with an unused parameter.
 	 * When removing the unused parameter, the argument should be removed as well.
@@ -23,6 +34,7 @@ public class UnusedMethodParameter {
 	 * @return
 	 */
 	protected int calculateSomethingElse() {
+			int i = calculateSomething2(4,5,6);
 		return calculateSomething(1, 2, 3);
 	}
 

@@ -11,4 +11,9 @@ public class LocalVariableImmediatelyReturned {
 		return result;
 	}
 
+		protected int multiply2(int a, int b) {
+				int result = a * b;
+				return result;
+		}
+
 }

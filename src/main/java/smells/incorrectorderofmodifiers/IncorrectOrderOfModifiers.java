@@ -20,4 +20,15 @@ public class IncorrectOrderOfModifiers {
 		return MULTIPLIER;
 	}
 
+		/**
+		 *
+		 * @return
+		 */
+		protected int setAndGetMultiplier(int mul, int div, int add) {
+				add = 1 + 1;
+				mul = add * add;
+
+				return mul;
+		}
+
 }
