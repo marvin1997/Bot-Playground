@@ -23,6 +23,12 @@ public class MethodTooLong {
 		// get numbers
 		Scanner inp = new Scanner(System.in);
 		int num1;
+
+			//		int i = 1;
+			//		while (i < 10) {
+			//			result = result + i;
+			//			i++;
+			//		}
 		int num2;
 		println("Enter first number:");
 		num1 = inp.nextInt();
@@ -33,6 +39,12 @@ public class MethodTooLong {
 		println("Enter your selection: 1 for addition, 2 for subtraction, 3 for multiplication and 4 for division:");
 		int choose;
 		choose = inp.nextInt();
+
+			//		int i = 1;
+			//		while (i < 10) {
+			//			result = result + i;
+			//			i++;
+			//		}
 
 		// calculate and print result
 		switch (choose) {

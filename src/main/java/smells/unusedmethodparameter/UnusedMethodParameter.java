@@ -1,5 +1,7 @@
 package smells.unusedmethodparameter;
 
+import java.util.Random;
+
 /**
  * Unused method parameters confuse developers and should therefore be removed.
  */
@@ -37,5 +39,39 @@ public class UnusedMethodParameter {
 			int i = calculateSomething2(4,5,6);
 		return calculateSomething(1, 2, 3);
 	}
+
+		protected int addition3(int a) {
+				int result = 0;
+
+				//		int i = 1;
+				//		while (i < 10) {
+				//			result = result + i;
+				//			i++;
+				//		}
+
+				// an important comment
+				for (int i = 0; i < 10; i++) {
+						result = result + new Random().nextInt(2);
+				}
+
+				return result;
+		}
+
+		protected int addition3(int i, int a, int b) {
+				int result = 0;
+
+				//		int i = 1;
+				//		while (i < 10) {
+				//			result = result + i;
+				//			i++;
+				//		}
+
+				// an important comment
+				for (int j = 0; i < b; i++) {
+						result = result + new Random().nextInt(2);
+				}
+
+				return result;
+		}
 
 }
