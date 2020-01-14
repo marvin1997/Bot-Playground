@@ -24,7 +24,6 @@ public class CommentedOutCode {
 				//		while (i < 10) {
 				//			result = result + i;
 				//			i++;
-				//		}
 		}
 		
 		return result;
