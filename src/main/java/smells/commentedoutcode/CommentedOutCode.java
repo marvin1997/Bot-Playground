@@ -23,7 +23,6 @@ public class CommentedOutCode {
 				//		int i = 1;
 				//		while (i < 10) {
 				//			result = result + i;
-				//			i++;
 		}
 		
 		return result;
