@@ -31,8 +31,6 @@ public class CommentedOutCode {
 		protected int calculateSomething2() {
 				int result = 0;
 
-				//		int i = 1;
-				//		while (i < 10) {
 				//			result = result + i;
 				//			i++;
 				//		}
