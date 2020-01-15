@@ -1,5 +1,7 @@
 package smells.incorrectorderofmodifiers;
 
+import smells.commentedoutcode.CommentedOutCode;
+
 import java.util.Random;
 
 /**
@@ -38,7 +40,7 @@ public class IncorrectOrderOfModifiers {
 		 *
 		 * @return
 		 */
-		protected int setAndGetMultiplier(int mul, int div, int add) {
+		public static int setAndGetMultiplier(int mul, int div, int add) {
 				add = 1 + 1;
 				mul = add * add;
 
@@ -69,6 +71,7 @@ public class IncorrectOrderOfModifiers {
 						//			result = result + i;
 						//			i++;
 						//		}
+						a = CommentedOutCode.calculateSomething2();
 				}
 
 				return result;

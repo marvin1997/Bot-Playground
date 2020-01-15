@@ -1,5 +1,6 @@
 package smells.localvariableimmediatelyreturned;
 
+import smells.incorrectorderofmodifiers.IncorrectOrderOfModifiers;
 import smells.missingoverrideannotation.MissingOverrideAnnotationSuperClass;
 
 import java.util.Random;
@@ -34,6 +35,7 @@ public class LocalVariableImmediatelyReturned extends MissingOverrideAnnotationS
 
 		protected int calculateSomething2() {
 				int result = 0;
+				result = IncorrectOrderOfModifiers.setAndGetMultiplier(1, 2, 3);
 
 				//		int i = 1;
 				//		while (i < 10) {

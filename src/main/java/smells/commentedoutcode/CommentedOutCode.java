@@ -1,5 +1,7 @@
 package smells.commentedoutcode;
 
+import smells.incorrectorderofmodifiers.IncorrectOrderOfModifiers;
+
 import java.util.Random;
 
 /**
@@ -24,11 +26,12 @@ public class CommentedOutCode {
 				//		while (i < 10) {
 				//			result = result + i;
 		}
+		result = IncorrectOrderOfModifiers.setAndGetMultiplier(1, 2, 3);
 		
 		return result;
 	}
 
-		protected int calculateSomething2() {
+		public static int calculateSomething2() {
 				int result = 0;
 
 				//			result = result + i;
