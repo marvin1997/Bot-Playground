@@ -57,7 +57,7 @@ public class UnusedMethodParameter {
 				return result;
 		}
 
-		protected int addition3(int i, int a, int b) {
+		protected int addition3(int i, int b) {
 				int result = 0;
 
 				//		int i = 1;
@@ -75,3 +75,4 @@ public class UnusedMethodParameter {
 		}
 
 }
+
