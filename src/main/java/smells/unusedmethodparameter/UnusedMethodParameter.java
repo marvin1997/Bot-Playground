@@ -19,11 +19,12 @@ public class UnusedMethodParameter {
 	}
 
 		/**
-		 * @param a
-		 * @param c
-		 * @return
-		 */
-		protected int calculateSomething2(int a, int b, int c) {
+ * 
+ * @param a
+ * @param c
+ * @return
+ */
+		protected int calculateSomething2(int a, int c) {
 				int result = (a + c) * 0;
 				result = result + 1;
 				return result;
@@ -36,7 +37,7 @@ public class UnusedMethodParameter {
 	 * @return
 	 */
 	protected int calculateSomethingElse() {
-			int i = calculateSomething2(4,5,6);
+			int i = calculateSomething2(4,6);
 		return calculateSomething(1, 2, 3);
 	}
 
@@ -75,5 +76,6 @@ public class UnusedMethodParameter {
 		}
 
 }
+
 
 
