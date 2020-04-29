@@ -27,12 +27,7 @@ public class LocalVariableImmediatelyReturned extends MissingOverrideAnnotationS
 				result = IncorrectOrderOfModifiers.setAndGetMultiplier(1, 2, 3);
 				return result;
 
-				//		int i = 1;
-				//		while (i < 10) {
-				//			result = result + i;
-				//			i++;
-				//		}
-		}
+																						}
 
 		protected int calculateSomething2() {
 				int result = 0;
@@ -52,5 +47,6 @@ public class LocalVariableImmediatelyReturned extends MissingOverrideAnnotationS
 																						}
 
 }
+
 
 
