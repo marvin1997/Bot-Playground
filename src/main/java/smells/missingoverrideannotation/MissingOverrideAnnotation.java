@@ -37,6 +37,7 @@ public class MissingOverrideAnnotation extends MissingOverrideAnnotationSuperCla
 		/**
 		 * This method is missing an @Override annotation.
 		 */
+		@Override
 		public int addition(int a, int b) {
 				return a + b;
 		}
@@ -60,4 +61,5 @@ public class MissingOverrideAnnotation extends MissingOverrideAnnotationSuperCla
 		}
 
 }
+
 
