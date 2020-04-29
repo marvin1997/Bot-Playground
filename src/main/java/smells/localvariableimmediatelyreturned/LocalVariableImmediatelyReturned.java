@@ -52,6 +52,7 @@ public class LocalVariableImmediatelyReturned extends MissingOverrideAnnotationS
 		/**
 		 * This method is missing an @Override annotation.
 		 */
+		@Override
 		public int addition(int a, int b) {
 				return a + b;
 
@@ -63,3 +64,4 @@ public class LocalVariableImmediatelyReturned extends MissingOverrideAnnotationS
 		}
 
 }
+
