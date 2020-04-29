@@ -26,13 +26,7 @@ public class IncorrectOrderOfModifiers {
 		private final static int MULTIPLIER9 = 10;
 		private final static int MULTIPLIER0 = 10;
 
-		//		int i = 1;
-		//		while (i < 10) {
-		//			result = result + i;
-		//			i++;
-		//		}
-
-	/**
+											/**
 	 * 
 	 * @return
 	 */
@@ -67,6 +61,7 @@ public class IncorrectOrderOfModifiers {
 		}
 
 }
+
 
 
 
