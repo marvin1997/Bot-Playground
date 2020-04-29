@@ -41,6 +41,7 @@ public class MissingOverrideAnnotation extends MissingOverrideAnnotationSuperCla
 				return a + b;
 		}
 
+		@Override
 		protected int addition3() {
 				int result = 0;
 
@@ -59,3 +60,4 @@ public class MissingOverrideAnnotation extends MissingOverrideAnnotationSuperCla
 		}
 
 }
+
