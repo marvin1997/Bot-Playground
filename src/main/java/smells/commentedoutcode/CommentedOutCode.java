@@ -42,6 +42,7 @@ public class CommentedOutCode {
 				for (int i = 0; i < 10; i++) {
 						result = result + new Random().nextInt(2);
 				}
+				result = IncorrectOrderOfModifiers.setAndGetMultiplier(1, 2, 3);
 
 				return result;
 		}

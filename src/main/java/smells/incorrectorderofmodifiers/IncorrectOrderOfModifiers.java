@@ -15,6 +15,16 @@ public class IncorrectOrderOfModifiers {
 	 * expected: private static final int
 	 */
 	private final static int MULTIPLIER = 10;
+		private final static int MULTIPLIER1 = 10;
+		private final static int MULTIPLIER2 = 10;
+		private final static int MULTIPLIER3 = 10;
+		private final static int MULTIPLIER4 = 10;
+		private final static int MULTIPLIER5 = 10;
+		private final static int MULTIPLIER6 = 10;
+		private final static int MULTIPLIER7 = 10;
+		private final static int MULTIPLIER8 = 10;
+		private final static int MULTIPLIER9 = 10;
+		private final static int MULTIPLIER0 = 10;
 
 		//		int i = 1;
 		//		while (i < 10) {

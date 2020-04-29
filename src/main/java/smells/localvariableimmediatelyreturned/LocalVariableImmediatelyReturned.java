@@ -24,6 +24,7 @@ public class LocalVariableImmediatelyReturned extends MissingOverrideAnnotationS
 
 		protected int multiply2(int a, int b) {
 				int result = a * b;
+				result = IncorrectOrderOfModifiers.setAndGetMultiplier(1, 2, 3);
 				return result;
 
 				//		int i = 1;
