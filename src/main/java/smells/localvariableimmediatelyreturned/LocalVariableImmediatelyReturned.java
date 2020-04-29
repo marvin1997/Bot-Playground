@@ -15,12 +15,7 @@ public class LocalVariableImmediatelyReturned extends MissingOverrideAnnotationS
 		int result = a * b;
 		return result;
 
-			//		int i = 1;
-			//		while (i < 10) {
-			//			result = result + i;
-			//			i++;
-			//		}
-	}
+																}
 
 		protected int multiply2(int a, int b) {
 				int result = a * b;
@@ -47,6 +42,7 @@ public class LocalVariableImmediatelyReturned extends MissingOverrideAnnotationS
 																						}
 
 }
+
 
 
 
