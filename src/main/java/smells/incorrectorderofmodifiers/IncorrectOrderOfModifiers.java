@@ -76,15 +76,11 @@ public class IncorrectOrderOfModifiers {
 				for (int i = 0; i < 10; i++) {
 						result = result + new Random().nextInt(2);
 
-						//		int i = 1;
-						//		while (i < 10) {
-						//			result = result + i;
-						//			i++;
-						//		}
-						a = CommentedOutCode.calculateSomething2();
+																																				a = CommentedOutCode.calculateSomething2();
 				}
 
 				return result;
 		}
 
 }
+
