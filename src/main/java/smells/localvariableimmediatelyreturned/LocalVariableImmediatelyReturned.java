@@ -55,11 +55,7 @@ public class LocalVariableImmediatelyReturned extends MissingOverrideAnnotationS
 		public int addition(int a, int b) {
 				return a + b;
 
-				//		int i = 1;
-				//		while (i < 10) {
-				//			result = result + i;
-				//			i++;
-				//		}
-		}
+																						}
 
 }
+
