@@ -20,7 +20,7 @@ public class IncorrectOrderOfModifiers {
 		private final static int MULTIPLIER3 = 10;
 		private final static int MULTIPLIER4 = 10;
 		private final static int MULTIPLIER5 = 10;
-		private final static int MULTIPLIER6 = 10;
+		private static final int MULTIPLIER6 = 10;
 		private final static int MULTIPLIER7 = 10;
 		private final static int MULTIPLIER8 = 10;
 		private final static int MULTIPLIER9 = 10;
@@ -88,4 +88,5 @@ public class IncorrectOrderOfModifiers {
 		}
 
 }
+
 
