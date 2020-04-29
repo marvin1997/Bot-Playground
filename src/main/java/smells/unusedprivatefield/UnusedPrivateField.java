@@ -18,12 +18,7 @@ public class UnusedPrivateField {
 	public UnusedPrivateField() {
 		this.foo = 42;
 
-			//		int i = 1;
-			//		while (i < 10) {
-			//			result = result + i;
-			//			i++;
-			//		}
-	}
+																}
 
 		/**
 		 * However, the value could be set as in this constructor.
@@ -46,5 +41,6 @@ public class UnusedPrivateField {
 		}
 	
 }
+
 
 
