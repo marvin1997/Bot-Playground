@@ -56,12 +56,7 @@ public class IncorrectOrderOfModifiers {
 
 				return mul;
 
-				//		int i = 1;
-				//		while (i < 10) {
-				//			result = result + i;
-				//			i++;
-				//		}
-		}
+																						}
 
 		protected int calculateSomething2(int a) {
 				int result = 0;
@@ -77,5 +72,6 @@ public class IncorrectOrderOfModifiers {
 		}
 
 }
+
 
 
