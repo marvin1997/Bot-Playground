@@ -31,12 +31,7 @@ public class UnusedPrivateField {
 		public void methodUnusedPrivateField2() {
 
 
-				//		int i = 1;
-				//		while (i < 10) {
-				//			result = result + i;
-				//			i++;
-				//		}
-					this.foo = 42;
+																									this.foo = 42;
 		}
 
 		protected int addition3() {
@@ -51,4 +46,5 @@ public class UnusedPrivateField {
 		}
 	
 }
+
 
