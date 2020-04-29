@@ -14,12 +14,7 @@ public class MissingOverrideAnnotation extends MissingOverrideAnnotationSuperCla
 	public double addition(double a, double b) {
 		return a + b;
 
-			//		int i = 1;
-			//		while (i < 10) {
-			//			result = result + i;
-			//			i++;
-			//		}
-	}
+																}
 
 		/**
 		 * This method is missing an @Override annotation.
@@ -48,5 +43,6 @@ public class MissingOverrideAnnotation extends MissingOverrideAnnotationSuperCla
 		}
 
 }
+
 
 
