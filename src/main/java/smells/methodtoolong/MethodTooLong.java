@@ -28,8 +28,7 @@ public class MethodTooLong {
 			//		while (i < 10) {
 			//			result = result + i;
 			//			i++;
-			//		}
-		int num2;
+					int num2;
 		println("Enter first number:");
 		num1 = inp.nextInt();
 		println("Enter second number:");
@@ -40,11 +39,7 @@ public class MethodTooLong {
 		int choose;
 		choose = inp.nextInt();
 
-			//		int i = 1;
-			//		while (i < 10) {
-			//			result = result + i;
-			//			i++;
-			//		}
+															//		}
 
 		// calculate and print result
 		switch (choose) {
@@ -77,3 +72,4 @@ public class MethodTooLong {
 	}
 
 }
+
