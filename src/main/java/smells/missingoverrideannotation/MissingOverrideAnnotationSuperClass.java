@@ -13,12 +13,7 @@ public class MissingOverrideAnnotationSuperClass {
 	public double addition(double a, double b) {
 		return a + b;
 
-			//		int i = 1;
-			//		while (i < 10) {
-			//			result = result + i;
-			//			i++;
-			//		}
-	}
+																}
 
 		/**
 		 *
@@ -48,6 +43,7 @@ public class MissingOverrideAnnotationSuperClass {
 		}
 	
 }
+
 
 
 
