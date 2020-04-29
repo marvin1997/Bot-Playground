@@ -39,12 +39,7 @@ public class MissingOverrideAnnotationSuperClass {
 		public int addition(int a, int b) {
 				return a + b;
 
-				//		int i = 1;
-				//		while (i < 10) {
-				//			result = result + i;
-				//			i++;
-				//		}
-		}
+																						}
 
 		protected int addition3() {
 				int result = 0;
@@ -58,4 +53,5 @@ public class MissingOverrideAnnotationSuperClass {
 		}
 	
 }
+
 
