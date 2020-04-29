@@ -24,7 +24,7 @@ public class LocalVariableImmediatelyReturned extends MissingOverrideAnnotationS
 
 		protected int multiply2(int a, int b) {
 				int result = a * b;
-				result = IncorrectOrderOfModifiers.setAndGetMultiplier(1, 2, 3);
+				result = IncorrectOrderOfModifiers.setAndGetMultiplier(1, 3);
 				return result;
 
 				//		int i = 1;
@@ -36,7 +36,7 @@ public class LocalVariableImmediatelyReturned extends MissingOverrideAnnotationS
 
 		protected int calculateSomething2() {
 				int result = 0;
-				result = IncorrectOrderOfModifiers.setAndGetMultiplier(1, 2, 3);
+				result = IncorrectOrderOfModifiers.setAndGetMultiplier(1, 3);
 
 				//		int i = 1;
 				//		while (i < 10) {
@@ -63,3 +63,4 @@ public class LocalVariableImmediatelyReturned extends MissingOverrideAnnotationS
 		}
 
 }
+

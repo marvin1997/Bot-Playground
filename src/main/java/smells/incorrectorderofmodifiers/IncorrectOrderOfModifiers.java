@@ -47,10 +47,10 @@ public class IncorrectOrderOfModifiers {
 	}
 
 		/**
-		 *
-		 * @return
-		 */
-		public static int setAndGetMultiplier(int mul, int div, int add) {
+ * 
+ * @return
+ */
+		public static int setAndGetMultiplier(int mul, int add) {
 				add = 1 + 1;
 				mul = add * add;
 
@@ -88,3 +88,4 @@ public class IncorrectOrderOfModifiers {
 		}
 
 }
+
