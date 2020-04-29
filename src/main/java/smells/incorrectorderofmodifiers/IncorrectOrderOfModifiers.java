@@ -39,12 +39,7 @@ public class IncorrectOrderOfModifiers {
 	protected int getMultiplier() {
 		return MULTIPLIER;
 
-			//		int i = 1;
-			//		while (i < 10) {
-			//			result = result + i;
-			//			i++;
-			//		}
-	}
+																}
 
 		/**
 		 *
@@ -72,6 +67,7 @@ public class IncorrectOrderOfModifiers {
 		}
 
 }
+
 
 
 
