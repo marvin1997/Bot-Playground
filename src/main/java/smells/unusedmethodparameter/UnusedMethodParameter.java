@@ -8,11 +8,12 @@ import java.util.Random;
 public class UnusedMethodParameter {
 
 	/**
-	 * @param a
-	 * @param c
-	 * @return
-	 */
-	protected int calculateSomething(int a, int b, int c) {
+ * 
+ * @param a
+ * @param c
+ * @return
+ */
+	protected int calculateSomething(int a, int c) {
 		int result = (a + c) * 0;
 		result = result + 1;
 		return result;
@@ -38,7 +39,7 @@ public class UnusedMethodParameter {
 	 */
 	protected int calculateSomethingElse() {
 			int i = calculateSomething2(4,6);
-		return calculateSomething(1, 2, 3);
+		return calculateSomething(1, 3);
 	}
 
 		protected int addition3() {
@@ -76,6 +77,7 @@ public class UnusedMethodParameter {
 		}
 
 }
+
 
 
 
