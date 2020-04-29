@@ -34,11 +34,7 @@ public class CommentedOutCode {
 		public static int calculateSomething2() {
 				int result = 0;
 
-				//			result = result + i;
-				//			i++;
-				//		}
-
-				// an important comment
+																// an important comment
 				for (int i = 0; i < 10; i++) {
 						result = result + new Random().nextInt(2);
 				}
@@ -48,3 +44,4 @@ public class CommentedOutCode {
 		}
 	
 }
+
