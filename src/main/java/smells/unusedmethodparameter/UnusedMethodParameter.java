@@ -60,13 +60,7 @@ public class UnusedMethodParameter {
 		protected int addition3(int i, int a, int b) {
 				int result = 0;
 
-				//		int i = 1;
-				//		while (i < 10) {
-				//			result = result + i;
-				//			i++;
-				//		}
-
-				// an important comment
+																								// an important comment
 				for (int j = 0; i < b; i++) {
 						result = result + new Random().nextInt(2);
 				}
@@ -75,3 +69,4 @@ public class UnusedMethodParameter {
 		}
 
 }
+
